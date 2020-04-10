@@ -28,19 +28,8 @@
       :width="250"
       :breakpoint="600"
     >
-      <q-scroll-area style="height: calc(100% - 150px); margin-top: 150px; border-right: 1px solid #ddd">
-        <q-list padding>
-          <q-item clickable v-ripple>
-            <q-item-section avatar>
-              <q-icon name="inbox"/>
-            </q-item-section>
-
-            <q-item-section>
-              Inbox
-            </q-item-section>
-          </q-item>
-
-
+      <q-scroll-area style="height: calc(100% - 192px); margin-top: 192px; border-right: 1px solid #ddd">
+        <q-list padding >
           <q-item
             to="/"
             exact
@@ -50,7 +39,7 @@
             </q-item-section>
 
             <q-item-section>
-              todo
+              Todo
             </q-item-section>
           </q-item>
           <q-item
@@ -63,6 +52,18 @@
 
             <q-item-section>
               help
+            </q-item-section>
+          </q-item>
+          <q-item
+            to="github"
+            exact
+            clickable v-ripple>
+            <q-item-section avatar>
+              <q-icon name="lab la-github"/>
+            </q-item-section>
+
+            <q-item-section>
+              GitHub
             </q-item-section>
           </q-item>
         </q-list>

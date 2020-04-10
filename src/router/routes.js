@@ -4,8 +4,12 @@ const routes = [
     component: () => import('layouts/MainLayout.vue'),
     children: [
       {path: '', component: () => import('pages/Index.vue')},
-      {path: '/help', component: () => import('pages/help.vue')}
-
+      {path: '/help', component: () => import('pages/help.vue')},
+      {
+        path: '/github', beforeEnter() {
+          location.href = 'https://github.com/widade/quasar-todo'
+        }
+      }
     ]
   }
 ]
