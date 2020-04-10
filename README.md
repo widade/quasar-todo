@@ -20,3 +20,12 @@ quasar build
 
 ### Customize the configuration
 See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
+
+### Images
+##### Desktop
+![Desktop](Qasar-Todo.png "Desktop")
+
+##### Mobile
+![Mobile](Qasar-Todo-m.png "Mobile")
+
+![Mobile](Qasar-Todo-m2.png "Mobile")
